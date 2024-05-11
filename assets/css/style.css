@@ -6863,6 +6863,7 @@ Header Customization
 
 .destination-style1 img {
   transition: 0.5s ease-in-out;
+  border-radius: 10px;
 }
 
 .destination-style1 .destination-price {
@@ -6888,6 +6889,29 @@ Header Customization
   position: absolute;
   left: 0;
   bottom: 30px;
+}
+
+.destination-style1 .vs-btn {
+  border: none;
+
+  background-color: rgba(28, 28, 28, 0.8);
+  color: var(--white-color);
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1;
+  padding: 15px 30px;
+  border-radius: 10px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.destination-style1 .more {
+  color: var(--white-color);
+  font-size: 20px;
+  text-transform: none;
+  margin-bottom: 10px;
 }
 
 .destination-style1 .destination-name {
